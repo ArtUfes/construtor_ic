@@ -1,0 +1,28 @@
+-----------------------------------------------------------------
+SI_1 1 Not 6 INTROINFO INTROSI LOGCOMP PORTINST PROG1SI VGASI 0
+
+INTROINFO, AulasNaSemana:2
+INTROSI, AulasNaSemana:1
+LOGCOMP, AulasNaSemana:2
+PORTINST, AulasNaSemana:1
+PROG1SI, AulasNaSemana:2
+VGASI, AulasNaSemana:2
+
+Somatório de aulas na semana para o currículo SI_1: 10
+-----------------------------------------------------------------
+
+-----------------------------------------------------------------
+SI_7 1 Not 5 ADMECOSI COMELET INFOSOC SEGAUDSIS SISTDIS 1 TOPESPII
+
+ADMECOSI, AulasNaSemana:2
+COMELET, AulasNaSemana:2
+INFOSOC, AulasNaSemana:2
+SEGAUDSIS, AulasNaSemana:2
+SISTDIS, AulasNaSemana:2
+TOPESPII, AulasNaSemana:1
+
+Somatório de aulas na semana para o currículo SI_7: 11
+
+erro encontrado, pois só existem 10 vagas para disciplinas de
+um mesmo currículo no turno noturno.
+-----------------------------------------------------------------

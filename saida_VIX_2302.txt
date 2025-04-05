@@ -1,0 +1,915 @@
+Arquivo de entrada aberto com sucesso!
+Nome: VIX-2023-2
+Quantidade de disciplinas: 32
+Quantidade de salas: 8
+Quantidade de laboratórios: 3
+Quantidade de dias: 5
+Períodos por dia: 7
+Quantidade de turnos: 3
+Quantidade de currículos: 9
+Quantidade de aulas fixas: 21
+Quantidade de indisponibilidades: 0
+Quantidade de pesos: 15
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: PROG2_CC
+30 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 0, Horario: 3, Sala: Lab1, Valor: 6
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: PROG2_CC
+	Dia: 0
+	Horário: 3
+	--------------
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: PROG2_CC
+	Professor: FLAVIO
+	Dia: 0
+	Horário: 3
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: PROG2_CC
+28 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 0, Horario: 4, Sala: Lab1, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DA DISCIPLINA NO MESMO HORÁRIO!
+	---- INFO ----
+	Disciplina: PROG2_CC
+	Horário da disciplina: 4
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: PAP
+28 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 0, Horario: 3, Sala: Lab3, Valor: 6
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: PAP
+	Dia: 0
+	Horário: 3
+	--------------
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: PAP
+	Professor: VERUSKA
+	Dia: 0
+	Horário: 3
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: PAP
+27 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 0, Horario: 4, Sala: Lab3, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DA DISCIPLINA NO MESMO HORÁRIO!
+	---- INFO ----
+	Disciplina: PAP
+	Horário da disciplina: 4
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: PROG2_EC
+30 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 0, Horario: 0, Sala: Lab1, Valor: 6
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: PROG2_EC
+	Dia: 0
+	Horário: 0
+	--------------
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: PROG2_EC
+	Professor: ANDRE
+	Dia: 0
+	Horário: 0
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: PROG2_EC
+28 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 0, Horario: 1, Sala: Lab1, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DA DISCIPLINA NO MESMO HORÁRIO!
+	---- INFO ----
+	Disciplina: PROG2_EC
+	Horário da disciplina: 1
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: PIC1
+26 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 0, Horario: 2, Sala: Lab1, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: PIC1
+	Professor: RODOLFO
+	Dia: 0
+	Horário: 2
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: PIC1
+24 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 1, Horario: 2, Sala: Lab1, Valor: 6
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: PIC1
+	Dia: 1
+	Horário: 2
+	--------------
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: PIC1
+	Professor: RODOLFO
+	Dia: 1
+	Horário: 2
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: POO_EC
+26 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 0, Horario: 0, Sala: Lab3, Valor: 6
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: POO_EC
+	Dia: 0
+	Horário: 0
+	--------------
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: POO_EC
+	Professor: JOAOPAULO
+	Dia: 0
+	Horário: 0
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: POO_EC
+25 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 0, Horario: 1, Sala: Lab3, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DA DISCIPLINA NO MESMO HORÁRIO!
+	---- INFO ----
+	Disciplina: POO_EC
+	Horário da disciplina: 1
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: COMCOM
+24 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 0, Horario: 2, Sala: Lab3, Valor: 6
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: COMCOM
+	Dia: 0
+	Horário: 2
+	--------------
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: COMCOM
+	Professor: ZAMBOM
+	Dia: 0
+	Horário: 2
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: COMCOM
+23 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 1, Horario: 2, Sala: Lab3, Valor: 6
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: COMCOM
+	Dia: 1
+	Horário: 2
+	--------------
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: COMCOM
+	Professor: ZAMBOM
+	Dia: 1
+	Horário: 2
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: BD1
+22 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 1, Horario: 0, Sala: Lab1, Valor: 6
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: BD1
+	Dia: 1
+	Horário: 0
+	--------------
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: BD1
+	Professor: RODRIGO
+	Dia: 1
+	Horário: 0
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: BD1
+20 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 1, Horario: 1, Sala: Lab1, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DA DISCIPLINA NO MESMO HORÁRIO!
+	---- INFO ----
+	Disciplina: BD1
+	Horário da disciplina: 1
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: ALGLIN
+66 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 1, Horario: 1, Sala: Sala201, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: ALGLIN
+	Professor: DPTMAT
+	Dia: 1
+	Horário: 1
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: ALGLIN
+60 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 1, Horario: 0, Sala: Sala201, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DA DISCIPLINA NO MESMO HORÁRIO!
+	---- INFO ----
+	Disciplina: ALGLIN
+	Horário da disciplina: 0
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: FIS1
+54 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 2, Horario: 0, Sala: Sala201, Valor: 6
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: FIS1
+	Dia: 2
+	Horário: 0
+	--------------
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: FIS1
+	Professor: DPTFIS
+	Dia: 2
+	Horário: 0
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: FIS1
+48 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 2, Horario: 1, Sala: Sala201, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DA DISCIPLINA NO MESMO HORÁRIO!
+	---- INFO ----
+	Disciplina: FIS1
+	Horário da disciplina: 1
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: CALC2_EC
+42 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 2, Horario: 2, Sala: Sala201, Valor: 0
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: CALC2_EC
+36 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 3, Horario: 2, Sala: Sala201, Valor: 6
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: CALC2_EC
+	Dia: 3
+	Horário: 2
+	--------------
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: CALC2_EC
+	Professor: DPTFIS
+	Dia: 3
+	Horário: 2
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: DAC
+30 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 3, Horario: 1, Sala: Sala201, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: DAC
+	Professor: DPTELE
+	Dia: 3
+	Horário: 1
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: AOC
+59 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 1, Horario: 1, Sala: Sala206, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: AOC
+	Dia: 1
+	Horário: 1
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: AOC
+54 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 1, Horario: 0, Sala: Sala206, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DA DISCIPLINA NO MESMO HORÁRIO!
+	---- INFO ----
+	Disciplina: AOC
+	Horário da disciplina: 0
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: CELE2
+56 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 0, Horario: 2, Sala: Sala201, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: CELE2
+	Professor: DPTELE
+	Dia: 0
+	Horário: 2
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: CELE2
+50 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 1, Horario: 2, Sala: Sala201, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: CELE2
+	Professor: DPTELE
+	Dia: 1
+	Horário: 2
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: FISEX
+44 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 3, Horario: 0, Sala: Sala201, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: FISEX
+	Dia: 3
+	Horário: 0
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: FISEX
+38 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 4, Horario: 0, Sala: Sala201, Valor: 6
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: FISEX
+	Dia: 4
+	Horário: 0
+	--------------
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: FISEX
+	Professor: DPTELE
+	Dia: 4
+	Horário: 0
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: EMAG1
+32 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 4, Horario: 1, Sala: Sala201, Valor: 0
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: EMAG1
+26 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 4, Horario: 2, Sala: Sala201, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DA DISCIPLINA NO MESMO HORÁRIO!
+	---- INFO ----
+	Disciplina: EMAG1
+	Horário da disciplina: 2
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: PROB
+25 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 3, Horario: 1, Sala: Sala206, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: PROB
+	Professor: DPTSTA
+	Dia: 3
+	Horário: 1
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: PROB
+20 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 3, Horario: 2, Sala: Sala206, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DA DISCIPLINA NO MESMO HORÁRIO!
+	---- INFO ----
+	Disciplina: PROB
+	Horário da disciplina: 2
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: AMSD
+39 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 0, Horario: 1, Sala: Sala201, Valor: 0
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: AMSD
+33 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 0, Horario: 0, Sala: Sala201, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DA DISCIPLINA NO MESMO HORÁRIO!
+	---- INFO ----
+	Disciplina: AMSD
+	Horário da disciplina: 0
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: SEMB1
+27 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 1, Horario: 1, Sala: Sala207, Valor: 0
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: SEMB1
+23 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 1, Horario: 0, Sala: Sala207, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DA DISCIPLINA NO MESMO HORÁRIO!
+	---- INFO ----
+	Disciplina: SEMB1
+	Horário da disciplina: 0
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: ES1_EC
+43 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 2, Horario: 0, Sala: Sala206, Valor: 6
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: ES1_EC
+	Dia: 2
+	Horário: 0
+	--------------
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: ES1_EC
+	Professor: MONALESSA
+	Dia: 2
+	Horário: 0
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: ES1_EC
+38 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 2, Horario: 1, Sala: Sala206, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DA DISCIPLINA NO MESMO HORÁRIO!
+	---- INFO ----
+	Disciplina: ES1_EC
+	Horário da disciplina: 1
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: REDES_EC
+33 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 2, Horario: 2, Sala: Sala206, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: REDES_EC
+	Professor: JOSE
+	Dia: 2
+	Horário: 2
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: REDES_EC
+28 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 4, Horario: 2, Sala: Sala206, Valor: 6
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: REDES_EC
+	Dia: 4
+	Horário: 2
+	--------------
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: REDES_EC
+	Professor: JOSE
+	Dia: 4
+	Horário: 2
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: COMPSOC_CC
+78 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 0, Horario: 5, Sala: Sala201, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: COMPSOC_CC
+	Professor: JOSE
+	Dia: 0
+	Horário: 5
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: COMPSOC_CC
+72 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 1, Horario: 5, Sala: Sala201, Valor: 6
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: COMPSOC_CC
+	Dia: 1
+	Horário: 5
+	--------------
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: COMPSOC_CC
+	Professor: JOSE
+	Dia: 1
+	Horário: 5
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: SO
+72 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 0, Horario: 4, Sala: Sala201, Valor: 0
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: SO
+66 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 1, Horario: 4, Sala: Sala201, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: SO
+	Dia: 1
+	Horário: 4
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: COMPSOC_EC
+57 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 2, Horario: 1, Sala: Sala207, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: COMPSOC_EC
+	Dia: 2
+	Horário: 1
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: COMPSOC_EC
+53 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 2, Horario: 0, Sala: Sala207, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DA DISCIPLINA NO MESMO HORÁRIO!
+	---- INFO ----
+	Disciplina: COMPSOC_EC
+	Horário da disciplina: 0
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: POO_CC
+70 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 0, Horario: 5, Sala: Sala206, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: POO_CC
+	Professor: JOAOPAULO
+	Dia: 0
+	Horário: 5
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: POO_CC
+65 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 1, Horario: 5, Sala: Sala206, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: POO_CC
+	Professor: JOAOPAULO
+	Dia: 1
+	Horário: 5
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: CALC2_CC
+60 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 1, Horario: 3, Sala: Sala201, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: CALC2_CC
+	Professor: DPTMAT
+	Dia: 1
+	Horário: 3
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: LFA
+54 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 2, Horario: 3, Sala: Sala201, Valor: 6
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: LFA
+	Dia: 2
+	Horário: 3
+	--------------
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: LFA
+	Professor: ROSANE
+	Dia: 2
+	Horário: 3
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: LFA
+48 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 2, Horario: 4, Sala: Sala201, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DA DISCIPLINA NO MESMO HORÁRIO!
+	---- INFO ----
+	Disciplina: LFA
+	Horário da disciplina: 4
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: GRAFOS
+42 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 2, Horario: 5, Sala: Sala201, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: GRAFOS
+	Professor: BERILHES
+	Dia: 2
+	Horário: 5
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: GRAFOS
+36 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 3, Horario: 5, Sala: Sala201, Valor: 6
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: GRAFOS
+	Dia: 3
+	Horário: 5
+	--------------
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: GRAFOS
+	Professor: BERILHES
+	Dia: 3
+	Horário: 5
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: TC
+50 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 1, Horario: 4, Sala: Sala206, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: TC
+	Professor: BERILHES
+	Dia: 1
+	Horário: 4
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: TC
+45 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 1, Horario: 3, Sala: Sala206, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DA DISCIPLINA NO MESMO HORÁRIO!
+	---- INFO ----
+	Disciplina: TC
+	Horário da disciplina: 3
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: ES2_CC
+50 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 2, Horario: 3, Sala: Sala206, Valor: 6
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: ES2_CC
+	Dia: 2
+	Horário: 3
+	--------------
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: ES2_CC
+	Professor: VITOR
+	Dia: 2
+	Horário: 3
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: ES2_CC
+45 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 2, Horario: 4, Sala: Sala206, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DA DISCIPLINA NO MESMO HORÁRIO!
+	---- INFO ----
+	Disciplina: ES2_CC
+	Horário da disciplina: 4
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: LOG1_CC
+56 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 0, Horario: 5, Sala: Sala207, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: LOG1_CC
+	Professor: ROSANE
+	Dia: 0
+	Horário: 5
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: LOG1_CC
+52 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 2, Horario: 5, Sala: Sala207, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: LOG1_CC
+	Dia: 2
+	Horário: 5
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: ELD
+55 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 2, Horario: 4, Sala: Sala207, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: ELD
+	Professor: JADIR
+	Dia: 2
+	Horário: 4
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: ELD
+51 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 2, Horario: 3, Sala: Sala207, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DA DISCIPLINA NO MESMO HORÁRIO!
+	---- INFO ----
+	Disciplina: ELD
+	Horário da disciplina: 3
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: MP
+70 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 0, Horario: 3, Sala: Sala206, Valor: 6
+	INFRINGIU A RESTRIÇÃO DE AULAS DO CURRÍCULO ADJACENTES!
+	---- INFO ----
+	Disciplina: MP
+	Dia: 0
+	Horário: 3
+	--------------
+	INFRINGIU A RESTRIÇÃO DE AULAS DO PROFESSOR ADJACENTES!
+	---- INFO ----
+	Disciplina: MP
+	Professor: BOERES
+	Dia: 0
+	Horário: 3
+	--------------
+
+
+
+Disciplina com menor quantidade de timeSlots disponíveis: MP
+65 timeSlots disponíveis para a disciplina
+TimeSlot que minimiza a variacao da FO: Dia: 0, Horario: 4, Sala: Sala206, Valor: 3
+	INFRINGIU A RESTRIÇÃO DE AULAS DA DISCIPLINA NO MESMO HORÁRIO!
+	---- INFO ----
+	Disciplina: MP
+	Horário da disciplina: 4
+	--------------
+
+
+FO: 225
+CALC2_CC 0 3 Sala201
+PROG2_CC 0 3 Lab1
+PROG2_CC 0 4 Lab1
+PAP 0 3 Lab3
+PAP 0 4 Lab3
+PROG2_EC 0 0 Lab1
+PROG2_EC 0 1 Lab1
+PIC1 0 2 Lab1
+PIC1 1 2 Lab1
+POO_EC 0 0 Lab3
+POO_EC 0 1 Lab3
+COMCOM 0 2 Lab3
+COMCOM 1 2 Lab3
+BD1 1 0 Lab1
+BD1 1 1 Lab1
+ALGLIN 1 1 Sala201
+ALGLIN 1 0 Sala201
+FIS1 2 0 Sala201
+FIS1 2 1 Sala201
+CALC2_EC 2 2 Sala201
+CALC2_EC 3 2 Sala201
+DAC 3 1 Sala201
+AOC 1 1 Sala206
+AOC 1 0 Sala206
+CELE2 0 2 Sala201
+CELE2 1 2 Sala201
+FISEX 3 0 Sala201
+FISEX 4 0 Sala201
+EMAG1 4 1 Sala201
+EMAG1 4 2 Sala201
+PROB 3 1 Sala206
+PROB 3 2 Sala206
+AMSD 0 1 Sala201
+AMSD 0 0 Sala201
+SEMB1 1 1 Sala207
+SEMB1 1 0 Sala207
+ES1_EC 2 0 Sala206
+ES1_EC 2 1 Sala206
+REDES_EC 2 2 Sala206
+REDES_EC 4 2 Sala206
+COMPSOC_CC 0 5 Sala201
+COMPSOC_CC 1 5 Sala201
+SO 0 4 Sala201
+SO 1 4 Sala201
+COMPSOC_EC 2 1 Sala207
+COMPSOC_EC 2 0 Sala207
+POO_CC 0 5 Sala206
+POO_CC 1 5 Sala206
+CALC2_CC 1 3 Sala201
+LFA 2 3 Sala201
+LFA 2 4 Sala201
+GRAFOS 2 5 Sala201
+GRAFOS 3 5 Sala201
+TC 1 4 Sala206
+TC 1 3 Sala206
+ES2_CC 2 3 Sala206
+ES2_CC 2 4 Sala206
+LOG1_CC 0 5 Sala207
+LOG1_CC 2 5 Sala207
+ELD 2 4 Sala207
+ELD 2 3 Sala207
+MP 0 3 Sala206
+MP 0 4 Sala206
+

@@ -1,0 +1,55 @@
+Arquivo de entrada aberto com sucesso!
+Nome: Toy_UFES
+Disciplinas: 5
+Salas: 3
+Labs: 1
+Dias: 5
+Periodos_por_dia: 12
+Turnos: 3
+Curriculos: 2
+Aulas_Fixas: 2
+Indisponibilidades: 8
+Pesos: 13
+
+CURSOS:
+SceCosC 1 Ocra 3 3 30 S
+ArcTec 1 Indaco 4 3 42 S
+TecCos 2 Rosa Scarlatti 3 4 40 S
+Geotec 1 Scarlatti 3 4 18 S
+Prog 1 Maria 3 3 10 L
+
+SALAS:
+rA 32
+rB 50
+rC 40
+
+LABS:
+lab1 30
+
+TURNOS:
+Mat 0 5
+Vesp 6 11
+Inte 0 11
+
+CURRICULA:
+EC_1 Mat 3 SceCosC ArcTec TecCos 1 Prog
+CC_1 Vesp 3 TecCos Geotec Prog 0
+
+AULAS_FIXAS:
+Geotec 0 1
+Geotec 2 1
+
+INDISPONIBILIDADES:
+TecCos 2 0
+TecCos 2 1
+TecCos 3 2
+TecCos 3 3
+ArcTec 4 0
+ArcTec 4 1
+ArcTec 4 2
+ArcTec 4 3
+
+PESOS:
+-1 -1 -1 -1 -1 -1 -1 -1 1 2 1 1 3
+
+FIM.
