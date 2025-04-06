@@ -1,0 +1,21 @@
+# Ignore build directories
+/bin/
+/obj/
+
+# Ignore compiled object files
+*.o
+
+# Ignore executables (if named like the project)
+main
+
+# Ignore backups and temp files
+*~
+*.swp
+*.bak
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
