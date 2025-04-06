@@ -282,6 +282,7 @@ int VariacaoFO::calculaVariacaoSobrecargaProfessor(Disciplina *d, TSFO *tsfo, st
     // Pega os turnos do currículo da disciplina:
     vector<Turno*> turnos = d->getCurriculo()->getTurnos();
 
+    
     // Se tem menos do que três turnos, obrigatoriamente não teremos aula nos três turnos em um mesmo dia:
     if(turnos.size() < 3) {
         for(int i = 0; i < (int) profsDisciplina.size(); i++) {
@@ -299,35 +300,58 @@ int VariacaoFO::calculaVariacaoSobrecargaProfessor(Disciplina *d, TSFO *tsfo, st
                     cout << "\t--------------\n";
                 }
             }
-            /*
-                IMPLEMENTAR AS OUTRAS VERIFICAÇÕES
-            */
+            // Se o professor tem aula no turno noturno e no dia seguinte no turno matutino, adicionamos o peso da restrição:
+            for(int i = 0; i < (int) profsDisciplina.size(); i++) {
+                int idx = profsDisciplina[i];
+                
+                int diaAnterior = dia - 1;
+                if(diaAnterior >= 0) { // garante que não vai acessar dia -1
+                    if(professorTemAulaNoturno(professores[idx], diaAnterior, turnos) &&
+                    professorTemAulaMatutino(professores[idx], dia, turnos)) {
+                        variacao += peso;
+                        if (debug) {
+                            cout << "\tINFRINGIU A RESTRIÇÃO: PROFESSOR COM AULA À NOITE E NA MANHÃ SEGUINTE!\n";
+                            cout << "\tDisciplina: " << d->getNomeDisciplina() << "\n";
+                            cout << "\tProfessor: " << professores[idx]->getNomeProfessor() << "\n";
+                            cout << "\tDia anterior (noturno): " << diaAnterior << ", Dia atual (matutino): " << dia << "\n";
+                        }
+                    }
+                }
+
+            }
         }
     }
     else {
+        // Se tem três turnos, verificamos se o professor tem aula nos três turnos:
+        if(turnos.size() >= 3) {
+            for(int i = 0; i < (int) profsDisciplina.size(); i++) {
+                int idx = profsDisciplina[i];
+                // Se o professor tem aula nos três turnos, adicionamos o peso da restrição:
+                if(professorTemAulaMatutino(professores[idx], dia, turnos) && professorTemAulaVespertino(professores[idx], dia, turnos) && professorTemAulaNoturno(professores[idx], dia, turnos)) {
+                    variacao += peso;
+                }
+            }
+        }
+        // Se o professor tem aula no turno noturno e no dia seguinte no turno matutino, adicionamos o peso da restrição:
         for(int i = 0; i < (int) profsDisciplina.size(); i++) {
             int idx = profsDisciplina[i];
-            /*
-                IMPLEMENTAR AS OUTRAS VERIFICAÇÕES
-            */
+            
+            int diaAnterior = dia - 1;
+            if(diaAnterior >= 0) { // garante que não vai acessar dia -1
+                if(professorTemAulaNoturno(professores[idx], diaAnterior, turnos) &&
+                professorTemAulaMatutino(professores[idx], dia, turnos)) {
+                    variacao += peso;
+                    if (debug) {
+                        cout << "\tINFRINGIU A RESTRIÇÃO: PROFESSOR COM AULA À NOITE E NA MANHÃ SEGUINTE!\n";
+                        cout << "\tDisciplina: " << d->getNomeDisciplina() << "\n";
+                        cout << "\tProfessor: " << professores[idx]->getNomeProfessor() << "\n";
+                        cout << "\tDia anterior (noturno): " << diaAnterior << ", Dia atual (matutino): " << dia << "\n";
+                    }
+                }
+            }
 
         }
     }
-
-    // imprime o dia e horario do tsfo, a disciplina em questão e tambem o valor da variacao:
-    // cout << "\n\n Dentro de calculaVariacaoSobrecargaProfessor()\n";
-    // cout << "Disciplina: " << d->getNomeDisciplina() << ", ";
-    // cout << "Dia: " << tsfo->getTimeSlot().getDia() << ", Horario: " << tsfo->getTimeSlot().getHorario() << ", Variacao: " << variacao << "\n\n";
-    // cout << "Professores: ";
-    // for(int i = 0; i < (int) profsDisciplina.size(); i++) {
-    //     cout << professores[profsDisciplina[i]]->getNomeProfessor() << " ";
-    // }
-    // cout << "Turnos: ";
-    // for(int i = 0; i < (int) turnos.size(); i++) {
-    //     cout << turnos[i]->getNomeTurno() << " ";
-    // }
-    // cout << "\n\n";
-    
     return variacao;
 }
 

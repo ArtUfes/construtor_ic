@@ -1,6 +1,7 @@
 # Ignore build directories
 /bin/
 /obj/
+/github/
 
 # Ignore compiled object files
 *.o
